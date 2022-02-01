@@ -1,9 +1,51 @@
-const pokemon = require('./test')
+const pokemon = [
+    "ekans",
+    "arbok",
+    "zubat",
+    "gloom",
+    "paras",
+    "golem",
+    "doduo",
+    "hypno",
+    "ditto",
+    "eevee",
+    "pichu",
+    "aipom",
+    "yanma",
+    "unown",
+    "magby",
+    "entei",
+    "lugia",
+    "ho-oh",
+    "lotad",
+    "ralts",
+    "minun",
+    "numel",
+    "absol",
+    "bagon",
+    "shinx",
+    "luxio",
+    "budew",
+    "burmy",
+    "gible",
+    "riolu",
+    "rotom",
+    "azelf",
+    "snivy",
+    "tepig",
+    "munna",
+    "throh",
+    "zorua",
+    "klink",
+    "klang",
+    "deino",
+    "inkay",
+    "goomy",
+    "hoopa",
+    "toxel",
+    "kubfu"
+]
 
 window.onload = () => {
-    
-    // Task 1: Set up the State of the game.
-    let currentRow = 1;
-    const buttons = document.getElementsByClassName('keyboard-button')
-    console.log(pokemon.results.find(pokemon => pokemon.name.length === 5));
+    console.log("PARTY");
 }
