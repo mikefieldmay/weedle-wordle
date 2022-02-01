@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    color: blue;
+    background-image: url("./pokemon-in-the-wild.png");
+    height: 100vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.keyboard-button {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 2px;
+    background: white;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 43px;
+    height: 58px;
+}
+.keyboard-button:hover {
+    background: lightgrey;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+.name {
+    color: black;
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+.one-and-a-half {
+    width: fit-content;
+}
+
+game-row {
+    display: flex;
+}
+
+.game-square {
+    margin: 2px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: 1px solid lightGrey;
+}
