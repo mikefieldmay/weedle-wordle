@@ -44,7 +44,7 @@ const pokemon = [
     "hoopa",
     "toxel",
     "kubfu"
-]
+];
 
 window.onload = () => {
     console.log("PARTY");
